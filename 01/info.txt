@@ -1,2 +1,2 @@
-Baza danych: [nazwa] [versja] [strona domowa]
-Manager DB: [nazwa] [versja] [strona domowa]
+Baza danych: [MySQL] [8.4.3] [https://www.mysql.com/](Korzystam z serwera logalnego Laragon 2025 v 8.2.3)
+Manager DB: [TablePlus] [6.7.0] [https://tableplus.com]
