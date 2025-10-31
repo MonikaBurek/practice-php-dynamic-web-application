@@ -6,7 +6,7 @@ $config = require 'config.php';
 $db = new Database($config['database']);
 
 if (isset($_GET['id'])) {
-    $id = $_GET['id'];
+    $id = intval($_GET['id']);
     $author = $db->query("SELECT * FROM authors WHERE id ={$id}")->fetch();
     echo "<li>" . "Id=" . $author['id'] . " Name: " . $author['name'] . '</li>';
 } else {
